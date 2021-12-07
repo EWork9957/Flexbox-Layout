@@ -1,0 +1,93 @@
+body {
+    font-family: Arial;
+    margin: 0;
+}
+/*NAV BAR~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.navbar {
+  display: flex;
+  background-color: #4100bb;
+  justify-content: space-evenly;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+}
+.navbar a {
+  color: white;
+  padding: 14px;
+  text-decoration: none;
+  text-align: center;
+  flex-grow: 1;
+}
+.navbar a:hover {
+  background-color: #1e0055;
+  color: white;
+  justify-content: space-evenly;
+}
+/*TITLE~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.Title{
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: center;
+
+  
+}
+.Title > div{
+  background-color: rgb(255, 255, 255);
+  font-size: 1.5em;
+  padding: 30px;
+  color: rgb(68, 68, 68);
+}
+/*Photos~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.Photos{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: space-around;
+}
+/*TEXT~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.Text{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: space-around;
+}
+.Text div{
+  font-family: 'Oswald', sans-serif;
+  font-size: 25px;
+}
+.Smart{
+  margin-left: -10px;
+  margin-right: -20px;
+}
+/*BUTTON~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.container{
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: space-around;
+}
+.container > div{
+  background-color: rgb(0, 153, 154);
+  font-size: 1.5em;
+  color: rgb(255, 255, 255);
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 60px;
+  padding-right: 60px;
+  font-size: 15px;
+  font-family: 'Oswald', sans-serif;
+  border-radius: 10px;
+}
+.cart1{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.cart3{
+  margin-left: 20px;
+}
